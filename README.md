@@ -29,6 +29,9 @@ There are two types of load balancing
 
 ##### Test urls
 
+###### Eureka Naming Server
+http://localhost:8761
+
 ###### currency-converter-service call different currency-exchange-service in per request
 http://localhost:8100/currency-converter-feign/from/EUR/to/INR/quantity/10000
 
