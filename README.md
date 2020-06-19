@@ -6,13 +6,13 @@ The Ribbon mainly provides client-side load balancing algorithms. It is a client
 
 ![](images/client-side-load-balancing-with-ribbon.png)
 
-###Features of Ribbon
+### Features of Ribbon
 - Load balancing
 - Fault tolerance
 - Multiple protocol support in Asynchronous model
 - Caching and batching
 
-#####Modules
+##### Modules
 - **ribbon**: It is an API that integrates load balancing, fault-tolerance, caching, and
 - **ribbon-loadbalancer**: It is a Load balancer API that can be used independently or with other modules.
 - **ribbon eureka**: It uses Eureka client that provides a dynamic server list for the Spring Cloud.
@@ -20,7 +20,7 @@ The Ribbon mainly provides client-side load balancing algorithms. It is a client
 - **ribbon-httpclient**: It is a REST client built on top of Apache HttpClient integrated with load balancers.
 - **ribbon-core**: It is a Client Configuration API.
 
-#####Types of Load Balancing:
+##### Types of Load Balancing:
 There are two types of load balancing
 
 - **Server Side Load Balancing**: Server side load balancing is a monolithic It applies between the client and the server. It accepts incoming network, application traffic, and distributes the traffic across the multiple backend servers by using various methods. The middle component is responsible for distributing the client requests to the server.
